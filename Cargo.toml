@@ -1,0 +1,13 @@
+[package]
+name = "pairing-functions"
+version = "0.1.0"
+authors = ["Antonio Camargo <antoniop.camargo@gmail.com>"]
+description = "A Rust library that offers pairing functions to encode pairs of natural numbers into a single natural number."
+repository = "https://github.com/apcamargo/pairing-functions"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+include = ["src/**", "LICENSE", "README.md", "CHANGELOG.md"]
+
+[dependencies]
+num-integer = "0.1.46"
